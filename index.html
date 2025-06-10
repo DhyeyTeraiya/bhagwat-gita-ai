@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bhagwat Gita - Divine knowledge and wisdom">
+    <meta name="theme-color" content="#ffffff">
+    <title>Bhagwat Gita</title>
+    <link rel="stylesheet" href="public/css/background.css">
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+    <div class="scene-background"></div>
+    <div class="animated-elements">
+        <div class="tree left"></div>
+        <div class="tree right"></div>
+        <div class="cow"></div>
+    </div>
+    
+    <div class="container">
+        <header>
+            <h1>श्रीमद्‍भगवद्‍गीता</h1>
+            <h2>The Bhagwat Gita</h2>
+        </header>
+        
+        <nav id="chapters-nav">
+            <!-- Chapters navigation will be populated by JavaScript -->
+        </nav>
+
+        <main id="content">
+            <div class="verse-container">
+                <!-- Verses will be populated by JavaScript -->
+            </div>
+            
+            <div id="chat-container">
+                <div id="chat-messages"></div>
+                <div class="input-container">
+                    <textarea id="user-input" placeholder="Ask your question..." rows="1"></textarea>
+                    <button id="send-button">
+                        <span>Ask Krishna</span>
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <div id="musicControls">
+            <audio id="backgroundMusic" loop>
+                <source src="public/assets/background-music.mp3" type="audio/mp3">
+            </audio>
+            <img id="musicIcon" src="public/assets/music-play.svg" alt="Toggle music">
+        </div>
+    </div>
+    
+    <script src="public/js/script.js"></script>
+</body>
+</html>

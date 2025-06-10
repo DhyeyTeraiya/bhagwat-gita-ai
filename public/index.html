@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divine Guidance - Bhagavad Gita</title>
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/background.css">
+</head>
+<body>
+    <!-- Divine Background Scene -->
+    <div class="scene-background"></div>
+    <div class="animated-elements">
+        <div class="tree left"></div>
+        <div class="tree right"></div>
+        <div class="cow"></div>
+        <div class="peacock"></div>
+        <div class="lotus" style="left: 10%; top: 30%"></div>
+        <div class="lotus" style="right: 15%; top: 40%"></div>
+        <div class="lotus" style="left: 20%; bottom: 20%"></div>
+    </div>
+
+    <!-- Music Controls -->
+    <div class="music-controls" id="musicControls" title="Divine Flute Music">
+        <img src="assets/music-play.svg" alt="Toggle Krishna's Flute" id="musicIcon">
+        <audio id="backgroundMusic" loop preload="auto" crossorigin="anonymous">
+            <source src="assets/krishna-flute.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <div class="container">
+        <header>
+            <div class="divine-header">
+                <h1>॥ श्री कृष्ण उवाच ॥</h1>
+                <p class="sanskrit-subtitle">परित्राणाय साधूनां विनाशाय च दुष्कृताम्।<br>धर्मसंस्थापनार्थाय सम्भवामि युगे युगे॥</p>
+                <p class="subtitle">Welcome to Vrindavan - Seek Divine Guidance from Lord Krishna</p>
+            </div>
+        </header>
+
+        <main>
+            <div class="chat-container">
+                <div id="chat-messages" class="chat-messages">
+                    <div class="message krishna">
+                        <div class="message-content">
+                            <p>My dear devotee,</p>
+                            <p>Welcome to Vrindavan, my divine abode. As the gentle breeze carries the melody of my flute, let your heart be at peace. Share your thoughts, concerns, or seek guidance about your life's path. Just as I guided Arjuna in the battlefield of Kurukshetra, I am here to illuminate your path with the eternal wisdom of the Bhagavad Gita.</p>
+                            <p>What guidance do you seek today?</p>
+                            <span class="signature">~ श्री कृष्ण</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="input-container">
+                    <textarea id="user-input" placeholder="Share your thoughts with Lord Krishna..." rows="3"></textarea>
+                    <button id="send-button">Seek Guidance 🙏</button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>॥ हरे कृष्ण हरे कृष्ण कृष्ण कृष्ण हरे हरे ॥<br>॥ हरे राम हरे राम राम राम हरे हरे ॥</p>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
